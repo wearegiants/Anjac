@@ -16,7 +16,7 @@
 
   <div class="splash__logo centered centered-full">
     <div class="fs-row">
-      <div class="fs-cell fs-xl-third fs-lg-half fs-md-half fs-sm-2 fs-centered splash__logo">
+      <div class="fs-cell fs-xl-third fs-lg-half fs-md-half fs-sm-half fs-xs-3 fs-centered splash__logo">
         <img src="/assets/img/anjac_logo.svg" alt="<?php bloginfo( 'sitename' ) ?>" class="img-responsive" />
       </div>
     </div>

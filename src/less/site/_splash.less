@@ -7,6 +7,12 @@
   &__logo {
     z-index: 10;
     top: 50%;
+    @media @mobile {
+      top: 47%;
+    }
+    @media @tablet {
+      top: 50%;
+    }
   }
 
   &__header {
@@ -24,6 +30,13 @@
     color: @white75;
     padding: @spaced*.75 0;
     border-top: 1px solid @white25;
+
+    @media @min {
+      .font_size(15);
+    }
+    @media @mobile {
+      .font_size(12);
+    }
 
     .divider {
       background: @white25;

@@ -5328,6 +5328,16 @@ input[type=button] {
   z-index: 10;
   top: 50%;
 }
+@media screen and (min-width: 500px) {
+  .splash__logo {
+    top: 47%;
+  }
+}
+@media screen and (min-width: 740px) {
+  .splash__logo {
+    top: 50%;
+  }
+}
 .splash__header {
   position: absolute;
   z-index: 10;
@@ -5342,6 +5352,18 @@ input[type=button] {
   color: rgba(255, 255, 255, 0.75);
   padding: 18.75px 0;
   border-top: 1px solid rgba(255, 255, 255, 0.25);
+}
+@media screen and (min-width: 300px) {
+  .splash__footer {
+    font-size: 15px;
+    font-size: 0.9375rem;
+  }
+}
+@media screen and (min-width: 500px) {
+  .splash__footer {
+    font-size: 12px;
+    font-size: 0.75rem;
+  }
 }
 .splash__footer .divider {
   background: rgba(255, 255, 255, 0.25);
