@@ -1,5 +1,21 @@
 // @codekit-prepend "site/default-ui.js"
 
+function carouselSizing(){
+  $(".carousel").royalSlider({
+    //autoScaleSlider: true,
+    //autoScaleSliderWidth: 800,
+    //autoScaleSliderHeight: 400,
+    imageScaleMode: 'fill',
+    transitionType: 'fade',
+    transitionSpeed: 2000,
+    controlNavigation : 'none',
+    autoPlay: {
+      enabled: true,
+      delay: 2000
+    }
+  });
+}
+
 function mobileMenu(){
 	// Clone that thing
 	var a = $('#header-navigation').html();
@@ -10,4 +26,5 @@ function mobileMenu(){
 
 $(document).ready(function(){
 	mobileMenu();
+  carouselSizing();
 });

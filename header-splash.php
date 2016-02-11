@@ -2,7 +2,7 @@
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="splash__html" lang="en"> <!--<![endif]-->
 <head>
 <meta charset="utf-8">
 <title><?php bloginfo( 'sitename' ) ?></title>
@@ -25,6 +25,4 @@
 
 </head>
 
-<body class="fs-grid">
-<div id="wrapper">
-<div id="content-wrapper" class='fs-grid'>
+<body class="fs-grid splash__body">

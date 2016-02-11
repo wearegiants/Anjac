@@ -1,0 +1,59 @@
+.splash {
+
+  &__html, &__body, &__wrapper {
+    height: 100%;
+  }
+
+  &__logo {
+    z-index: 10;
+    top: 50%;
+  }
+
+  &__header {
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    width: 100%;
+  }
+
+  &__footer {
+    position: absolute;
+    z-index: 10;
+    bottom: 0;
+    width: 100%;
+    color: @white75;
+    padding: @spaced*.75 0;
+    border-top: 1px solid @white25;
+
+    .divider {
+      background: @white25;
+    }
+
+    p {
+      color: inherit;
+      margin-bottom: 0;
+    }
+
+  }
+
+  &__overlay {
+    background: @black75;
+    z-index: 9;
+    pointer-events: none;
+  }
+
+  &__carousel {
+    z-index: 8;
+    width: 100%;
+    @media @min {
+      height: 100%;
+    }
+    @media @tablet {
+      height: 100%;
+    }
+    @media @desktop {
+      height: 100%;
+    }
+  }
+
+}

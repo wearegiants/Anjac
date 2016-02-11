@@ -112,8 +112,11 @@ img.rounded {
 }
 
 .centered {
-  float: none!important;
-  margin: auto!important;
+  .center();
+  &-full {
+    width: 100%;
+    z-index: 50;
+  }
 }
 
 .wrapper {
@@ -198,3 +201,7 @@ img.rounded {
   }
 }
 
+
+.relative {
+  position: relative;
+}
